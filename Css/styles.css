@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root {
+    --nav-bg: #fff;
+    --bg-links: rgb(244, 247, 247);
+    --bg-light: #f7f9fa;
+    --text-color: #737373;
+    --links-color: #5624d0;
+    --body-primary-color: #1c1d1f;
+    --button-primary-color: #fff;
+    --ratings-color: #b4690e;
+    --span-color: #6a6f73;
+    --best-seller-color: #eceb98;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--body-primary-color);
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.instructor{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 90px 0px 120px 0px;
+    justify-content: space-between;
+    gap: 150px;
+}
+.instruct-word h1{
+    font-size: 30px;
+}
+.instructor p, .instructor a{
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.instruct-word a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    /* margin-top: 100px; */
+}
+.instructor img{
+    width: 600px;
+}
+.features{
+    margin: 30px;
+
+}
+.features h1{
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+h1 {
+    font-size: 2rem;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+}
+ul li {
+    list-style: none;
+}
+
+/* ?header section */
+header {
+    position: relative;
+    width: 100%;
+}
+.background {
+    margin: 4em 0;
+}
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+    padding: 0.8em 0.2em;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    position: relative;
+
+    margin-left: 2.5em;
+}
+input {
+    width: 100%;
+    padding: 1em 11.5em 1em 3em;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: var(--bg-light);
+}
+.udemy-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2em;
+}
+.UTB {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.udemy-logo {
+    width: 8%;
+    /* padding:0 1em; */
+}
+.udemy-links {
+    margin-right: 1em;
+}
+
+.udemy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+}
+.shopping {
+    margin-left: 1em;
+}
+.search {
+    position: absolute;
+    width: 4%;
+    top: 1.1em;
+    left: 1em;
+}
+.teach {
+    margin-left: 1em;
+}
+.web {
+    width: 18%;
+}
+.categories {
+    margin-left: 2em;
+}
+.btn {
+    font-size: 0.85rem;
+    font-family: inherit;
+    font-weight: 700;
+    padding: 0.7em 0.75em;
+    margin-right: 1em;
+    background-color: var(--button-primary-color);
+    border: 1px solid black;
+}
+.sign {
+    background-color: var(--body-primary-color);
+    color: var(--button-primary-color);
+    font-weight: 700;
+}
+
+.web-btn {
+    border: 1px solid black;
+    padding: 0.8em;
+}
+.box {
+    width: 33.5%;
+    position: absolute;
+    top: 7em;
+    background-color: #fff;
+    margin: 1em 1.8em;
+    padding: 1.1em;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.box h1 {
+    margin: 0.3em 0;
+}
+/*? end of section */
+
+/*? selection of courses section */
+.selection-courses {
+    margin: 1.5em 1.5em 2em;
+    padding-bottom: 1.5em;
+}
+.course-btn {
+    border: 0;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    color: var(--text-color);
+    background-color: var(--button-primary-color);
+    margin: 1em;
+}
+
+.python {
+    color: #000;
+    border: 0;
+    background-color: var(--button-primary-color);
+    font-weight: 700;
+    font-family: inherit;
+    font-size: inherit;
+}
+.course-heading h1 {
+    margin: 0.5em 0;
+}
+.course-heading p {
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+}
+.expand {
+    border: 1px solid black;
+}
+.careers {
+    padding: 1.8em 1.8em 2.3em;
+}
+.careers p {
+    width: 75%;
+    line-height: 1.4;
+    margin: 0.5em 0;
+}
+.career-btn {
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    color: var(--button-secondary-color);
+    background-color: var(--button-primary-color);
+    padding: 0.5em 1em;
+}
+.career-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 1.5em;
+    /* width:100%; */
+}
+.card {
+    padding: 0 0.5em;
+    width: 100%;
+    height: fit-content;
+}
+.card-img {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.card h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card p {
+    margin: 0.3em 0;
+    font-size: 0.7rem;
+    color: var(--span-color);
+}
+.ratings {
+    display: flex;
+    align-items: center;
+    margin: 0.3em 0;
+}
+.ratings span {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--span-color);
+}
+.ratings h4 {
+    color: var(--ratings-color);
+}
+.amount {
+    display: flex;
+    align-items: center;
+}
+.amount span {
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    margin-left: 0.8em;
+    color: var(--span-color);
+}
+.amount h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+.star {
+    width: 7%;
+}
+.icon-star {
+    margin: 0 0.3em;
+}
+.green {
+    margin-bottom: 1.6em;
+}
+
+.best-seller button {
+    background-color: var(--best-seller-color);
+    border: 0;
+    margin: 0.5em 0;
+    padding: 0 0.2em;
+}
+
+/* ?learn section */
+.learn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-light);
+}
+.learn-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.round {
+    padding: 1em 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.learn-text {
+    margin-left: 1.5em;
+}
+.learn-text h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.play-img {
+    background-color: #e0e0e0;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+/* student-view section */
+.view-content h2 {
+    margin: 0 1.1em;
+}
+.students-view {
+    margin: 3em 1em 2em;
+}
+/* top-categories section */
+.top-categories {
+    margin: 4.5em 0;
+}
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+    margin: 0 1em;
+    padding: 0 0.5em;
+}
+.top-card {
+    width: 100%;
+    margin: 0 0 0 2em;
+    padding: 0 0.5em;
+}
+.top-head {
+    margin: 1em 2.5em;
+}
+/* featured-topics section */
+.featured-topics {
+    margin: 1.5em 0;
+    width: 100%;
+    background-color: var(--bg-light);
+    padding: 3em 0;
+}
+.featured-topics h2 {
+    margin: 0 1em;
+}
+.topic-links {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+    margin: 0 1.5em;
+}
+.features {
+    width: 100%;
+    height: 100%;
+}
+.features a {
+    color: var(--links-color);
+    text-decoration: underline;
+}
+.features p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+/* .dev {
+    margin-top: 0.5em;
+} */
+.features button {
+    background-color: var(--bg-light);
+    padding: 1em;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 1px solid black;
+}
+.feature-links {
+    margin: 1.5em 0;
+}
+/* trusted-company section */
+.trusted {
+    margin: 5em 0;
+}
+.trusted-company h1 {
+    text-align: center;
+    margin: 0.8em 0;
+}
+.trusted-company p {
+    text-align: center;
+    margin: 0.8em 0;
+}
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.8em;
+    margin: 1.5em 0;
+}
+/* udemy business section */
+.udemy-business {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0 0.5em;
+}
+.business-logo {
+    width: 45%;
+}
+.udemy-content {
+    width: 35%;
+    height: 100%;
+    /* margin-bottom: 10em; */
+    margin: 0.6em 0 1em;
+}
+.udemy-img {
+    width: 32%;
+}
+.udemy-content h1 {
+    margin: 0.5em 0;
+}
+.udemy-content ul li {
+    list-style: disc;
+    font-size: 1.3rem;
+    margin: 0.5em 0 0 0.9em;
+    line-height: 1.4;
+}
+.get-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 0.8em;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.learn-btn {
+    background-color: #fff;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    padding: 0.6em 0.5em;
+    border: 1px solid black;
+    margin-left: 0.3em;
+}
+.udemy-btn {
+    margin: 1em 8em 0 0;
+}
+footer{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+footer a, footer p{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.last-foot, .links{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.last-foot{
+    margin-top: 6%;
+    padding: 0px -10px;
+    align-items: center;
+}
+.language a{
+    border: 2px solid white;
+    /* height: 20px; */
+    padding: 7px 60px 7px 10px;
+}
+.link > div{
+    width: 29%;
+    padding: 4px;
+}
+footer > div{
+    padding: 30px 40px;
+}
+footer img{
+    width: 90px;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+        padding: 15px 0px;
+    width: 100%;
+}
+
+.elements .material-symbols-outlined{
+    color: gold;
+    font-size: 20px;
+}
